@@ -1,6 +1,6 @@
 {
   "name": "idmore-react-form-validator",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "React form validator, validation based on prop.",
   "main": "dist/index.js",
   "repository": "git@github.com:idmore/idmore-react-form-validator.git",
