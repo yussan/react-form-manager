@@ -2,11 +2,17 @@
   "name": "idmore-react-form-validator",
   "version": "0.0.1",
   "description": "React form validator, validation based on prop.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:idmore/idmore-react-form-validator.git",
   "author": "yussan <yussandeveloper@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "react": "^15.6.1"
-  }
+  },
+  "keywords": [
+    "idmore",
+    "react-form-validator",
+    "react",
+    "form-validator"
+  ]
 }
