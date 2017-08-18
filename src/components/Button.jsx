@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-export default Button extends Component 
+export default class Button extends Component
 {
   render()
   {

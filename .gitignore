@@ -479,3 +479,6 @@ __pycache__/
 # should be stored in the .pubxml.user file.
 
 # End of https://www.gitignore.io/api/git,node,linux,phpstorm,webstorm,visualstudio
+
+dist/
+npm-debug.*
