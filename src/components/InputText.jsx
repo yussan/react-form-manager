@@ -9,7 +9,7 @@ export default class InputText extends Component
       const {name, value} = e.target
       const validator = new Validator(Object.assign({},{name, value},this.props))
       const validate_result = validator.validate()
-      this.props.changeState({
+      this.props.setState({
           [name]: value,
           [`${name}_validation`]: validate_result
       })
@@ -17,9 +17,9 @@ export default class InputText extends Component
 
   render()
   {
-    const {style, label, name, min, max, placeholder} = this.props
+    const {style, label, name, min, max, placeholder, value, validation} = this.props
     return(
-      <div classname='form-row' style={style}>
+      <div className='form-row' style={style}>
         {label ? <label>{label}</label> : null}
         <input
             name={name}
@@ -29,10 +29,10 @@ export default class InputText extends Component
             value={value}
         />
         {
-          !validation.is_valid ? 
-          <div className='form-error--message'>
-            {validation.msg}
-          </div>
+          validation && !validation.is_valid ? 
+            <div className='form-error--message'>
+              {validation.msg}
+            </div>
           : null
         }
       </div>
@@ -47,8 +47,8 @@ InputText.defaultProps = {
 
 InputText.propType = {
     setState: PropTypes.func.isRequired,
-    placeholder: PropTypes.string,
     name: PropTypes.string.isRequired,
+    placeholder: PropTypes.string,
     label: PropTypes.string,
     min: PropTypes.number,
     max: PropTypes.number,
