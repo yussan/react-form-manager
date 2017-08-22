@@ -1,6 +1,6 @@
 # react-form-master
 
-React form validator, validation based on prop.
+React form validator, validation based on props.
 
 ## Preview
 **Code**
@@ -23,6 +23,10 @@ React form validator, validation based on prop.
 
 ![preview of form-validator](https://lh3.googleusercontent.com/qVPg81DI-W_NPPASH3Ms843f38rrK5IWP9Bmvdj0yDSFEUwcNHIqRHoEYF5MHaWR4Bne1-n36WSx8nVei_O8qFRi6SqyZ-RqR3GbRB3NSvd6ku7IACjzs6OerRFeUjXk-xTzXXwHpxC5zvwXulUmpEi6UDIEqOIEr0A4yEroSBjRPT5MsXAs5aNiaaNTQdn4WXXdig6OTtbSDATjMom4JU4UK46WJutgfHhciDQ-n4vWAv6dwzEflAHagcw9s9AH8JgKY9_qSt7V-QCFl5-yIdpbBhoB24I2J8Bx-Uf6APyvnqZqmcvMpVNLX_-0Zze41XN2NJaVgvGiiUVGt7nkNxMSHAIZMvhO_wIS3ihu9gRC08wI8hbrgQYrj58ClwG6sxE64ROpRKN4IanKFaYTWh5Q7Rv-oS-c7YFAiU5BglzL8Z_Nq0mfFsnBVArrklkyLywz--uvvJHxfSJ3ak8p3BQFmDJ6_7VNYDPdqEwH1UE0ntWPbyHVJIS7wTqTvZ4pCCZ7FZ81DbjhoxYpInsHvPpKYgJ8SJtthz1yjY_fN_onURaevf_rAdWycPub8jnaLG24YcYZ=w1532-h682)
 
+## Feature
+- validation based on props
+- 100% customizable css
+- support standar http attributes
 
 ## Available at NPM
 <a target="_blank" href="https://www.npmjs.com/package/idmore-react-form-validator">Id More React Form Validator at NPM</a>
