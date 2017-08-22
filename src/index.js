@@ -1,9 +1,9 @@
-import InputText from '../src/components/InputText'
-import InputFile from '../src/components/InputFile'
-import Select from '../src/components/Select'
-import Radio from '../src/components/Radio'
+import InputText from './components/InputText'
+import InputFile from './components/InputFile'
+import Select from './components/Select'
+import Radio from './components/Radio'
 
-export default {
+module.exports = {
   InputText,
   InputFile,
   Select,
