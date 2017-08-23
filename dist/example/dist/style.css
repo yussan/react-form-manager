@@ -1,0 +1,9 @@
+.form-row label{
+  display: block
+}
+
+.form-row input, .form-row select, .form-row button {
+  width: 100%;
+  padding : 10px;
+  margin : 5px 0;
+}
