@@ -1,1 +1,1 @@
-To show example, just find a .html file and open it view browser.
+To show example, just find a .html file and open it on your browser.

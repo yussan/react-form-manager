@@ -6,4 +6,10 @@
   width: 100%;
   padding : 10px;
   margin : 5px 0;
+  border: 1px solid #FFFFFF;
+}
+
+.form-row input:focus {
+  border: 1px solid #006ebb;
+  outline: 0;
 }
