@@ -1,6 +1,6 @@
 {
-  "name": "idmore-react-form-validator",
-  "version": "0.0.6",
+  "name": "react-form-master",
+  "version": "0.0.1-deprecated",
   "description": "React form validator based on prop.",
   "main": "dist/npm/index.js",
   "repository": "git@github.com:idmore/idmore-react-form-validator.git",
@@ -12,12 +12,12 @@
   },
   "scripts": {
     "build": "babel src -d dist/npm",
-    "build:example": "webpack --watch",
+    "build:example": "webpack --progress --watch",yarn ad
     "prepublish": "npm run build"
   },
   "keywords": [
     "idmore",
-    "react-form-validator",
+    "react-form-master",
     "react",
     "form-validator"
   ],
@@ -26,6 +26,7 @@
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.9.1",
     "prepack": "^0.2.5",
     "react-dom": "^15.6.1",
     "webpack": "^3.5.5"

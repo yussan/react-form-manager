@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import Validator from '../lib/validator/InputValidator'
 
+const supported_types = ['text','email','url','tel','search']
+
 export default class InputText extends Component 
 {
   handleChange(e)
@@ -17,7 +19,8 @@ export default class InputText extends Component
 
   render()
   {
-    const {style, label, name, min, max, placeholder, value, validation} = this.props
+    const {style, label, name, min, max, placeholder, value, description, 
+      validation} = this.props
     return(
       <div className='form-row' style={style}>
         {label ? <label>{label}</label> : null}
@@ -28,6 +31,9 @@ export default class InputText extends Component
             placeholder={placeholder}
             value={value}
         />
+        {
+          description ? <div className='form-description'>{description}</div> : null
+        }
         {
           validation && !validation.is_valid ? 
             <div className='form-error--message'>
@@ -47,6 +53,7 @@ InputText.defaultProps = {
 
 InputText.propType = {
     setState: PropTypes.func.isRequired,
+    type: PropTypes.oneOf(supported_types),
     name: PropTypes.string.isRequired,
     placeholder: PropTypes.string,
     label: PropTypes.string,
