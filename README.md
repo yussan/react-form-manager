@@ -1,4 +1,4 @@
-# idmore-react-form-validator
+# react-form-master
 
 React form validator, validation based on props.
 

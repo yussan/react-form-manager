@@ -4,3 +4,4 @@ test/
 dist/example/
 webpack.config.js
 .idea/
+dist/example/
