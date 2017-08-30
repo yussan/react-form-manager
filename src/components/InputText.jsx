@@ -48,7 +48,8 @@ export default class InputText extends Component
 
 InputText.defaultProps = {
     style: {},
-    value: ''
+    value: '',
+    type: 'text'
 }
 
 InputText.propType = {

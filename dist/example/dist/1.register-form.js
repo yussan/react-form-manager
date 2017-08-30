@@ -22497,7 +22497,8 @@ exports.default = InputText;
 
 InputText.defaultProps = {
   style: {},
-  value: ''
+  value: '',
+  type: 'text'
 };
 
 InputText.propType = {

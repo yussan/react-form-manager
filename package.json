@@ -6,10 +6,6 @@
   "repository": "git@github.com:idmore/idmore-react-form-validator.git",
   "author": "yussan <yussandeveloper@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "prop-types": "^15.5.10",
-    "react": "^15.6.1"
-  },
   "scripts": {
     "build": "babel src -d dist/npm",
     "build:example": "webpack --progress --watch",
@@ -23,6 +19,10 @@
     "react",
     "form-validator"
   ],
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.2",
