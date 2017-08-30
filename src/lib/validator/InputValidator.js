@@ -20,7 +20,7 @@ export function checkValidation(inputs,e)
 export function setValidation(inputs, e)
 {
     inputs.map((n, key) => {
-        if(!e.state[`${n}_validation`]) e.setState({[`${n}_validation`]: {is_valid: false, msg: 'wajib diisi'}})
+        if(!e.state[`${n}_validation`]) e.setState({[`${n}_validation`]: {is_valid: false, msg: 'is required'}})
     })
 }
 
@@ -37,19 +37,19 @@ export default class InputTextValidation
         if(required && value == '')
         {
             return {
-                msg: `wajib diisi`,
+                msg: `is required`,
                 is_valid: false
             }
         }else if(min && value.length < min)
         {
             return {
-                msg: `minimal karakter adalah ${min}`,
+                msg: `minimal characters is ${min}`,
                 is_valid: false
             }
         }else if(max && value.length > max)
         {
             return {
-                msg: `maksimal karakter adalah ${max}`,
+                msg: `maximal characters is ${max}`,
                 is_valid: false
             }
         }else{
@@ -73,7 +73,7 @@ export default class InputTextValidation
         if(value.indexOf('@') < 1)
         {
             return {
-                msg: `email tidak valid`,
+                msg: `please input email`,
                 is_valid: false
             }
         }else

@@ -1,4 +1,4 @@
-# react-form-master
+# [work in progress] react-form-master
 
 React form validator, validation based on props.
 

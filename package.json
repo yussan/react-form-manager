@@ -11,7 +11,7 @@
     "build:example": "webpack --progress --watch",
     "prepublish": "npm run build",
     "test": "mocha --compilers js:babel-core/register",
-    "test:watch": "mocha --compilers --watch js:babel-core/register"
+    "test:watch": "mocha --compilers js:babel-core/register --watch"
   },
   "keywords": [
     "idmore",
