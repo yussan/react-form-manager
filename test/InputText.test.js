@@ -2,6 +2,11 @@ import React from 'react'
 import { shallow, mount, render } from 'enzyme';
 import { expect } from  'chai';
 import sinon from 'sinon';
+import jsdom from 'jsdom';
+
+const doc = jsdom.jsdom('<!doctype html><html><body></body></html>');
+global.document = doc
+global.window = doc.defaultView;
 
 import InputText from '../src/index'
 
