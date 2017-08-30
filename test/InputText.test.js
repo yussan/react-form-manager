@@ -26,17 +26,7 @@ describe('<InputText />', () => {
       <InputText setState={(obj) => handleClick(obj)} type='text' name='value' value='value' />
     )
     wrapper.find('input').simulate('click')
-    // expect.handleClick
-    // console.log(handleClick.args)
-    // expect(handleClick).to.have.property('args', 
-    // [
-    //   [{
-    //     "value": "value",
-    //     "value_validation": {
-    //       "is_valid": true
-    //     }
-    //   }]
-    // ]);
+    expect(handleClick.args[0][0]).to.have.deep.keys({value:'value',value_validation:{"is_valid": true}});
   })
 
   it('on valid change', ()=> {
