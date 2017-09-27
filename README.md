@@ -1,6 +1,9 @@
-# [work in progress] react-form-master
+[![Build Status](https://travis-ci.org/idmore/react-form-master.svg?branch=master)](https://travis-ci.org/idmore/react-form-master)
+[![npm version](https://img.shields.io/npm/v/react-form-master.svg?style=flat-square)](https://www.npmjs.com/package/react-form-master)
 
-React form validator, validation based on props.
+
+# [work in progress] react-form-master
+Generate and validate React from based on props.
 
 ## Preview
 **Code**
