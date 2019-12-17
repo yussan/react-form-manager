@@ -24,10 +24,12 @@ Generate and validate React from based on props.
 ```
 **Preview**
 
-Preview id kompetisi.id
+Preview in [Kompetisi Id send competition](https://kompetisi.id/add/send)
+
 ![preview of Kompetisi Id](https://res.cloudinary.com/dhjkktmal/image/upload/c_scale,w_800/v1576557938/github/Screen_Shot_2019-12-17_at_11.43.46.jpg)
 
-Preview in maugowes.com
+Preview in [Maugowes send event](https://maugowes.com/events/send)
+
 ![Preview in Mau Gowes](https://res.cloudinary.com/dhjkktmal/image/upload/c_scale,w_800/v1576557938/github/Screen_Shot_2019-12-17_at_11.44.19.jpg)
 
 ## Feature
