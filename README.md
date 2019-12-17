@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/idmore/react-form-master.svg?branch=master)](https://travis-ci.org/idmore/react-form-master)
-[![npm version](https://img.shields.io/npm/v/react-form-master.svg?style=flat-square)](https://www.npmjs.com/package/@yussan/react-form-manager)
+[![Build Status](https://travis-ci.org/yussan/react-form-manager.svg?branch=master)](https://travis-ci.org/yussan/react-form-manager)
+[![npm version](https://img.shields.io/npm/v/@yussan/react-form-manager.svg?style=flat-square)](https://www.npmjs.com/package/@yussan/react-form-manager)
 
 
-# [work in progress] react-form-master
+# @yussan/react-form-manager
 Generate and validate React from based on props.
 
 ## Preview
@@ -22,9 +22,13 @@ Generate and validate React from based on props.
   validation={this.state.email_validation || {}}
 />
 ```
-**View**
+**Preview**
 
-![preview of form-validator](https://lh3.googleusercontent.com/qVPg81DI-W_NPPASH3Ms843f38rrK5IWP9Bmvdj0yDSFEUwcNHIqRHoEYF5MHaWR4Bne1-n36WSx8nVei_O8qFRi6SqyZ-RqR3GbRB3NSvd6ku7IACjzs6OerRFeUjXk-xTzXXwHpxC5zvwXulUmpEi6UDIEqOIEr0A4yEroSBjRPT5MsXAs5aNiaaNTQdn4WXXdig6OTtbSDATjMom4JU4UK46WJutgfHhciDQ-n4vWAv6dwzEflAHagcw9s9AH8JgKY9_qSt7V-QCFl5-yIdpbBhoB24I2J8Bx-Uf6APyvnqZqmcvMpVNLX_-0Zze41XN2NJaVgvGiiUVGt7nkNxMSHAIZMvhO_wIS3ihu9gRC08wI8hbrgQYrj58ClwG6sxE64ROpRKN4IanKFaYTWh5Q7Rv-oS-c7YFAiU5BglzL8Z_Nq0mfFsnBVArrklkyLywz--uvvJHxfSJ3ak8p3BQFmDJ6_7VNYDPdqEwH1UE0ntWPbyHVJIS7wTqTvZ4pCCZ7FZ81DbjhoxYpInsHvPpKYgJ8SJtthz1yjY_fN_onURaevf_rAdWycPub8jnaLG24YcYZ=w1532-h682)
+Preview id kompetisi.id
+![preview of Kompetisi Id](https://res.cloudinary.com/dhjkktmal/image/upload/c_scale,w_800/v1576557938/github/Screen_Shot_2019-12-17_at_11.43.46.jpg)
+
+Preview in maugowes.com
+![Preview in Mau Gowes](https://res.cloudinary.com/dhjkktmal/image/upload/c_scale,w_800/v1576557938/github/Screen_Shot_2019-12-17_at_11.44.19.jpg)
 
 ## Feature
 - validation based on props
@@ -32,39 +36,34 @@ Generate and validate React from based on props.
 - support standar http attributes
 
 ## Available at NPM
-<a target="_blank" href="https://www.npmjs.com/package/idmore-react-form-validator">Id More React Form Validator at NPM</a>
+<a target="_blank" href="https://www.npmjs.com/package/@yussan/react-form-manager">React Form Validator at NPM</a>
 
 **Instalation**
 ```
-npm install idmore-react-form-validator
+npm install @yussan/react-form-manager
 
 ```
 
 ## Documentations
-Please follow [this link](https://github.com/idmore/idmore-react-form-validator/blob/master/docs/index.md)
+Please follow [this link](https://github.com/yussan/react-form-manager/tree/master/docs)
 
 ## Contributions 
 
 ### Progress
 
-**trello**
-<a target="_blank" href="https://trello.com/b/sD2C5Gh3">https://trello.com/b/sD2C5Gh3</a>
-
-**github**
-- If find some bug / request new features, just created new issues in   <a href="https://github.com/idmore/idmore-react-form-validator/issues">github issues link</a>
+**Github**
+- If find some bug / request new features, just created new issues in   <a href="https://github.com/yussan/react-form-manager/issues">github issues link</a>
 - If you are a developer, let's develop this module together, this module is open source licensed. Let fork and solve the problem
 
 ### Development 
-**dev builder**
-We are using prepack, <a href="https://prepack.io/" target="_blank">read more Prepack</a>
+**Dev builder**
+We are using Webpack, <a href="https://webpack.js.org/" target="_blank">read more Webpack</a>
+
 Build and watch source change
 ```
-npm run dev:watch
+npm run build:example
 ```
-or just to build 
-```
-npm run dev:build
-``` 
+And then open .html file inside `dist/example/*.html` on your favorite browser
 
 ### Production 
 Build and release new version to NPM
@@ -74,8 +73,10 @@ npm publish
 
 or just to build
 ```
-npm run prod:build
+npm run build
 ```
 
 
-
+## Used By 
+- [Kompetisi Id](https://kompetisi.id)
+- [Mau Gowes](https://maugowes.com)
