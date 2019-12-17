@@ -1,5 +1,5 @@
 {
-  "name": "react-form-manager",
+  "name": "@yussan/react-form-manager",
   "version": "0.0.0",
   "description": "React form validator based on prop.",
   "main": "dist/npm/index.js",
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "idmore",
-    "react-form-master",
+    "react-form-manager",
     "react",
     "form-validator"
   ],

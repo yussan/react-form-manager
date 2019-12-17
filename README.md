@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/idmore/react-form-master.svg?branch=master)](https://travis-ci.org/idmore/react-form-master)
-[![npm version](https://img.shields.io/npm/v/react-form-master.svg?style=flat-square)](https://www.npmjs.com/package/react-form-master)
+[![npm version](https://img.shields.io/npm/v/react-form-master.svg?style=flat-square)](https://www.npmjs.com/package/@yussan/react-form-manager)
 
 
 # [work in progress] react-form-master
