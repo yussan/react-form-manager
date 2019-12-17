@@ -1,9 +1,9 @@
 {
-  "name": "react-form-master",
-  "version": "0.0.1-deprecated",
+  "name": "react-form-manager",
+  "version": "0.0.0",
   "description": "React form validator based on prop.",
   "main": "dist/npm/index.js",
-  "repository": "git@github.com:idmore/idmore-react-form-validator.git",
+  "repository": "git@github.com:yussan/react-form-manager.git",
   "author": "yussan <yussandeveloper@gmail.com>",
   "license": "MIT",
   "scripts": {
