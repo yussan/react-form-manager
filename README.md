@@ -2,7 +2,7 @@
 [![npm version](https://img.shields.io/npm/v/@yussan/react-form-manager.svg?style=flat-square)](https://www.npmjs.com/package/@yussan/react-form-manager)
 
 
-# @yussan/react-form-manager
+# [Deprecated] @yussan/react-form-manager
 Generate and validate React from based on props.
 
 ## Preview
